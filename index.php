@@ -14,7 +14,7 @@ $base_datos = new mysqli("localhost", "root", "", "angular_backend");
 /* metodo get */
 $aplicacion->get('/pruebas', function() use($aplicacion, $base_datos) {
 
-    echo "Saludando Desde Slim";
+    echo "Saludando";
     
     /* funciona para mostrar los datos del metodo */
    var_dump($base_datos);
